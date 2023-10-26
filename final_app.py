@@ -134,7 +134,7 @@ uc = st.sidebar.number_input('Underlying Condition', min_value=0, max_value=1, v
 height = st.sidebar.number_input('Height (ft)', min_value=0, max_value=10, value=5)
 weight = st.sidebar.number_input('Weight (kg)', min_value=0, max_value=300, value=70)
 toxicology = st.sidebar.number_input('Toxicology', min_value=0, max_value=1, value=0)
-scars = st.sidebar.number_input('Toxicology', min_value=0, max_value=3, value=1)
+scars = st.sidebar.number_input('Scars', min_value=0, max_value=3, value=1)
 teeth = st.sidebar.number_input('Teeth', min_value=0, max_value=4, value=1)
 # Add more inputs for other features as needed
 
